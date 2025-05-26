@@ -7,7 +7,7 @@ variable "vpc_cidr" {
 variable "subnet_cidr" {
   description = "Subnet CIDR"
   type        = string
-  default     = "10.0.16.0/24"
+  default     = "10.0.1.0/24"
 }
 
 variable "security_group_name" {
